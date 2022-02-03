@@ -1,0 +1,462 @@
+*
+{
+    margin: 0px;
+}
+
+.header
+{
+    width:100%;
+    display: inline-block;
+    position: relative;
+}
+.logo
+{
+    position: relative;
+    padding: 10px 10px;   
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+}
+
+.search 
+{  
+    padding-left: 100px;
+    display:inline-block;
+    margin-top: 30px;
+   
+}
+
+.searchbtn
+{
+   margin: 0%;
+   display: inline-block; 
+   border: none;
+   padding: none;
+   height: 48px;
+   cursor: pointer;
+   background-color: #F5F5F5;
+   outline: none;
+}
+
+
+.loginbtn ,.wishlist , .bag
+{
+    padding: 30px;
+    display: inline-block;   
+}
+
+.btn1 
+{   background-color: white;
+    border: none;
+    padding: 5px;
+    margin-left: 200px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+}
+.btn2 ,.btn3
+{   background-color: white;
+    border: none;
+    padding: 5px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+.menu
+{
+   display: block;
+   border-bottom: 1px solid rgb(218, 216, 216);
+   box-shadow : 2px 2px rgb(194, 186, 186);
+   
+}
+
+.dropdown1
+{
+    
+    position:relative;
+    display: inline-block;
+    margin-left: 350px;
+    margin-bottom: none;
+}
+
+.dropdown2, .dropdown3, .dropdown4
+{
+    
+    position:relative;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.dropdown1:hover  .dropcontent1 
+{
+    
+    display: block;    
+}
+
+.dropdown3:hover .dropcontent3 
+{
+    display: block; 
+}
+.dropdown2:hover .dropcontent2
+{
+    display: block; 
+}
+.dropdown4:hover .dropcontent4
+{
+    display: block; 
+}
+
+.content-box , .content
+{
+    display: inline-block;
+}
+.content1 h5
+{
+    padding: 15px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(161, 53, 53);
+}
+
+.content2 h5
+{
+    padding: 15px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(173, 16, 134);
+}
+
+.content3 h5
+{
+    padding: 15px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(186, 189, 8);
+}
+
+.content4 a
+{
+    padding: 15px 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: rgb(5, 116, 20);
+    text-decoration: none;
+    display: block;
+}
+
+
+.content1 a  ,.content2 a ,.content3 a 
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropcontent1 ,.dropcontent2  ,.dropcontent3 , .dropcontent4
+{   border-top: 3px solid  rgb(194, 186, 186) ;
+    display: none;
+    position: absolute;
+    min-width: 450px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    height: 350px;
+    
+}
+
+
+.dropbtn
+{
+    background-color:white;
+    border: none;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.dropbtn:hover
+{
+    border-bottom: rgb(189, 69, 69);
+}
+
+.slideshow-container
+{
+  width: 100%;
+  position: relative;
+  margin: 10px;
+  display: block;
+}
+
+#img
+{
+    margin-left: 200px;
+    height: 350px;
+}
+
+
+
+
+.brandslide
+{
+    display: block;
+    position: relative;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.brandslide2
+{
+    display: block;
+    position: relative;
+    height: 580px;
+    margin-top: 50px;
+}
+
+.brandslide3
+{
+    display: block;
+    position: relative;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.brands
+{
+    display: inline-block;
+    width: 250px;
+    height: 330px;
+    margin-left: 40px;
+    
+    
+
+}
+
+.brands1
+{
+    display: inline-block;
+    width: 250px;
+    height: 270px;
+    margin-left: 40px;
+    
+    
+
+}
+
+
+.brandtext
+{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(26, 25, 25);
+    outline: none;
+    margin-left: 60px;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+img
+{
+    margin-left: 23px;
+    
+}
+
+.wtext
+{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(97, 93, 93);
+    outline: none;
+    margin-left: 23px;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.etext
+{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(182, 180, 180);
+    outline: none;
+    margin-left: 23px;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+
+.footer
+{
+    width: 100%;
+    height: auto;
+    background-color:#252424 ;
+    position:relative;
+    display: block;
+    padding-bottom: 40px;
+}
+
+
+.socialicon
+{
+   position: relative;
+   display: inline-block;
+   background-color:#252424 ;
+   margin-left: 40%;
+   margin-top: 70px;
+}
+
+.fa-facebook
+{
+    
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: #3B5998;
+    color: white;
+}
+.fa-instagram { 
+    
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 40px; 
+    background: #9c0f61;  
+    color: white;  
+  }  
+
+.fa-twitter {  
+    
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 40px;
+    background: #55ACEE;  
+    color: white;  
+  }  
+
+.fa-snapchat {  
+    
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 40px;
+    background: #bef739;  
+    color: white;  
+  }  
+
+.info
+{
+    display: block;
+    margin-top: 50px;
+    margin-left: 21%;
+}
+
+.info a
+{
+    text-decoration: none;
+    color: white;
+    background-color:#252424 ;
+    margin-left: 60px;
+}
+
+.info2
+{
+    display: inline-block;
+    color: white;
+    margin-left: 100px;
+}
+
+.info3
+{
+    display: inline-block;
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+.line {
+    border-left: 1px solid rgb(247, 253, 247);
+    height: 100px;
+    position: absolute;
+    margin-left: 100px;
+    display: inline-block;
+    float: right;
+    
+  }
+
+.signupbar
+{
+    display: inline-block;
+    margin-left: 250px;
+    
+}
+
+.copyright
+{
+    margin-top: 80px;
+    margin-left: 37%;
+    color: wheat;
+}
+
+
+.login
+    {
+       border: 1px solid rgb(44, 39, 39);
+       position: fixed;
+       width: 100%;
+       height: 100%;
+       display: none;
+       background-color: rgb(0,0,0); /* Fallback color */
+       background-color: rgba(0,0,0,0.4);
+       
+    }
+    .side1
+    {
+        background-color: rgb(49, 49, 134);
+        float: left;
+        position: relative;
+        width: 30%;
+        height: 100%;
+    }
+
+    .form
+    {
+      
+        height: 100%;  
+        float: left;
+        position: relative;
+        width: 40%;
+    }
+    
+    button:hover{
+        opacity: 0.8;
+    }
+
+    .content
+    {
+        width: 70%;
+        background-color: #fefefe;
+    }
+
+    .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+      }
+      
+    @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+      }
+        
+    @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+      }
+
+

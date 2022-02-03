@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shopping.css"> 
+    
+    <script src="https://kit.fontawesome.com/c2a9dd8c35.js" crossorigin="anonymous"></script>
+    <title>Fashion Classy</title>
+    <link rel="shortcut icon" href="E:\website\shopping website\img1.png">
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <div>
+            <img src="E:\website\shopping website\img1.png" width="150px" height="100px">
+        </div>
+    </div>    
+    <div class="search">
+        <form class="searchbar" style="border: 2px solid #F5F5F5;background-color: #F5F5F5;border-radius: 7px;">
+            <input type="text" placeholder="Search for products,brand and more " style="border: none; width: 400px;height: 45px;background-color: #F5F5F5;">
+            <button class="searchbtn" style="display: inline-block; margin: 0%;">
+            <i class="fa fa-search" style="font-style: 18px;"></i>
+            </button>
+        </form>    
+    </div>  
+    <div class="loginbtn">
+        <button class="btn1" onclick="document.getElementsById('lgin').style.display=block"><i class="fa fa-user"></i><br> Login</button>   
+    </div> 
+    
+    <div class="login" id="lgin" >
+        <div class=" content animate">
+            <div class="side1">
+                <div>
+                    <p style="font-size: xx-large; color: white; margin-left: 30px; padding-top: 50px;"> LOGIN</p>
+                    <p style="font-size: large; color: white; margin-left: 30px;">Get access to your <br> Orders, Wishlist and Recommendations </p>
+                </div>
+                <img src=" E:\website\shopping website\shop.jfif" style=" margin-left: 30px; padding-bottom: 50px; margin-top: 60px; padding-right: 30px;">
+            </div>
+            <form action="action_page.php" method="POST">
+                <div class="form">
+                    <input type="type" placeholder=" Enter Email " style=" width:auto ; border: none; border-bottom: 1px solid black; font-family: Calibri, Helvetica, sans-serif; margin-top: 70px; margin-left: 40px; display: inline-block;" >
+                    <input type="password" placeholder="Enter password " style=" width:auto ; border: none; border-bottom: 1px solid black; font-family: Calibri, Helvetica, sans-serif; margin-top: 70px; margin-left: 40px;display: inline-block;">
+                    <p>By continuing, you agree to Flipkart's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+                    <input type="button" value="Login" style="width: auto;">
+                </div> 
+            </form>
+        </div>
+       
+    </div>
+
+    <script>
+        var login =document.getElementsById('lgin');
+        window.onclick = function(event)
+        {
+            if(event.target == login)
+            {
+                login.style.display="none";
+            }
+        }
+    </script>
+    
+    <div class="wishlist">
+        <button class="btn2"><i class="fa fa-heart"></i> <br>Wishlist</button>   
+    </div>
+    
+    <div class="bag">
+        <button class="btn3"><i class="fas fa-shopping-bag"></i> <br>Bag</button>   
+    </div>
+
+</div> 
+
+<div class="menu">
+    <div class="dropdown1">
+        <button class="dropbtn"><b> Men </b></button>
+        <div class="dropcontent1">
+            <div class="content-box">
+                <div class=" content1" style="float: left;">
+                        
+                    <h5> Top Wear</h5>     
+                    <a href="#"> T-shirts</a>
+                    <a href="#"> Casual shirts</a>
+                    <a href="#"> Formals shirts</a>
+                    <a href="#"> Jackets </a>        
+                    <a href="#"> Sweatshirts</a>
+                </div>
+                <div class="content1" style="float: right;">
+                    <h5>Footwear </h5> 
+                    <a href="#"> Casual Shoes </a>
+                    <a href="#"> Sports Shoes </a>
+                    <a href="#"> Formal Shoes </a>
+                    <a href="#"> Sneakers</a>
+                    <a href="#"> Sandals & Floaters</a>
+                    <a href="#"> Flip Flops</a>
+                    <a href="#"> Socks</a>
+                
+                </div> 
+                <div class="content1" style="float: right;">
+                    <h5>Fashion Accessories</h5> 
+                        
+                    <a href="#"> Wallets </a>
+                    <a href="#"> Belts </a>
+                    <a href="#"> Deodorants</a>
+                    <a href="#"> Watches </a>
+                    <a href="#"> Headphones</a>
+                    <a href="#"> Sunglasses</a>
+                    <a href="#"> Trimmers</a>
+                    <a href="#"> Phone cases</a>
+                    <a href="#"> Rings</a>
+                    <a href="#"> Ties, Cufflinks </a>          
+                </div> 
+                 
+            </div>
+            
+    
+        </div> 
+                            
+              
+    </div>
+    <div class="dropdown2">
+        <button class="dropbtn"><b>Women</b> </button>
+        <div class="dropcontent2">
+            <div class="content-box">
+                <div class=" content2" style="float: left;">
+                        
+                    <h5 class="heading"> Western wear</h5> 
+                    <a href="#"> Jumpsuits</a>
+                    <a href="#"> dresses</a>
+                    <a href="#"> Top</a>
+                    <a href="#"> Jackets </a>
+                    <a href="#"> Sweatshirts</a>
+                </div>
+                <div class="content2" style="float: right;">
+                    <h5>Footwear </h5> 
+                        
+                    <a href="#"> flats </a>
+                    <a href="#"> Sports Shoes </a>
+                    <a href="#"> Floaters </a>
+                    <a href="#"> Sneakers</a>
+                    <a href="#"> High heels</a>
+                    <a href="#"> Boots</a>
+                    <a href="#"> Socks</a>
+                
+                </div> 
+                <div class="content2" style="float: right;">
+                    <h5>Footwear </h5> 
+                    
+                    <a href="#"> Jewellery </a>
+                    <a href="#"> Handbags </a>
+                    <a href="#"> Headphones </a>
+                    <a href="#"> Skin care</a>
+                    <a href="#"> Earrings</a>
+                    <a href="#"> Watches</a>
+                    <a href="#"> Perfumes</a>
+                
+                </div> 
+            </div> 
+        </div>  
+    </div>     
+    <div class="dropdown3">    
+        <button class="dropbtn"><b> kids</b> </button>
+        <div class="dropcontent3">
+            <div class="content-box">
+                <div class=" content3" style="float: left;">
+                        
+                    <h5 class="heading"> Boys clothing</h5>     
+                    <a href="#"> T-shirts</a>
+                    <a href="#"> Jeans</a>
+                    <a href="#"> Shirts</a>
+                    <a href="#"> Jackets </a>
+                    <a href="#"> Sweatshirts</a>
+                </div>
+                <div class="content3" style="float: right;">
+                    <h5>Girls clothing</h5> 
+                        
+                    <a href="#"> Dresses</a>
+                    <a href="#"> Top </a>
+                    <a href="#"> Jeans </a>
+                    <a href="#"> Ethnic wear</a>
+                    <a href="#"> Trouser</a>
+                    <a href="#"> Jumpsuits</a>
+                    <a href="#"> Socks</a>
+                
+                </div> 
+                <div class="content3" style="float: right;">
+                    <h5>Kids Accessories </h5> 
+                    
+                    <a href="#"> Jewellery </a>
+                    <a href="#"> bags </a>
+                    <a href="#"> Skin care</a>
+                    <a href="#"> Watches</a>
+                
+                </div> 
+            </div> 
+            
+               
+            
+        </div>
+    
+    </div>
+    
+    <div class="dropdown4">    
+        <button class="dropbtn"> <b>Offers</b> </button>
+        <div class="dropcontent4">
+            <div class="content-box">
+                <div class=" content4" style="float: left;">
+                        
+                         
+                <a href="#"> 60% off on boys T-shirts </a>
+                <a href="#"> Get beautiful dresses in just Rs 999</a>
+                <a href="#">  40% off on puma  shoes</a>      
+                </div>
+    
+            
+               
+            </div>
+        
+        </div>
+    
+    </div>
+</div>
+<!--
+<div class="main">
+    <div class="slideshow-container">
+        <div class="slide">
+            <img id="img" src="E:\website\shopping website\img2.jpg">
+            <div class="text"> </div>
+        </div>
+        <div class="slide">
+            <img id="img" src="E:\website\shopping website\img3.jpg">
+            <div class="text"> </div>
+        </div>
+        <div class="slide">
+            <img id="img" src="E:\website\shopping website\img4.jpg">
+            <div class="text"> </div>
+        </div>
+    
+        <a class="prev" ></a>
+        <a class="next" ></a>
+    
+    
+    </div>
+</div>
+-->
+<div style="font-family: 'Courier New', Courier, monospace; font-size: 30px; color:#282c3f; margin: 20px;"><b> EXPLORE TOP BRANDS</b> </div>
+<div class="brandslide">
+    <div class=" brands">
+        <a class="image" href="https://www.myntra.com/myntra-fashion-store?f=Brand%3ADenizen%20From%20Levis%2CLevis%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+        <img src="E:\website\shopping website\b1.jfif" style="width: 200px; height: 200px;">
+        <img src="E:\website\shopping website\b1logo.jfif "style="width: 200px; height: 90px; ">
+        <p class="brandtext"> Min 30% off </p>
+        </a>
+    </div>
+    <div class=" brands">
+        <a href="https://www.myntra.com/mac">
+        <img src="E:\website\shopping website\b2.jfif" style="width: 200px; height: 200px;">
+        <img src="E:\website\shopping website\b2logo.jfif" style="width: 200px; height: 90px;">
+        <p class="brandtext"> upto 50% off </p>
+        </a>
+         
+    </div>
+    <div class=" brands">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3APuma%2Cone8%20x%20PUMA%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+        <img src="E:\website\shopping website\b3.jfif" style="width: 200px; height: 200px;">
+        <img src="E:\website\shopping website\b3logo.jfif" style="width: 200px; height: 90px;">
+        <p class="brandtext"> starting at Rs 999 </p>
+        </a>
+
+    </div>
+    <div class=" brands">
+        <a href="https://www.myntra.com/h&m">
+        <img src="E:\website\shopping website\b4.jfif" style="width: 200px; height: 200px;">
+        <img src="E:\website\shopping website\b4logo.jfif" style="width: 200px; height: 90px;">
+        <p class="brandtext"> 30% to 70% off </p>
+        </a>
+
+    </div>
+    <div class=" brands">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3AFOREVER%2021%3A%3AGender%3Amen%20women%2Cwomen">
+        <img src="E:\website\shopping website\b5.jfif" style="width: 200px; height: 200px;">
+        <img src="E:\website\shopping website\b5logo.jfif" style="width: 200px; height: 90px;">
+        <p class="brandtext"> upto 60% off </p>
+        </a>
+
+    </div>
+    
+</div>
+
+
+<div style="font-family: 'Courier New', Courier, monospace; font-size: 30px; color:#282c3f; margin: 20px;"><b> TRENDING IN WESTERN WEAR</b> </div>
+<div class="brandslide2" >
+    <div class=" brands1">
+        <a class="image" href="https://www.myntra.com/myntra-fashion-store?f=Brand%3ADenizen%20From%20Levis%2CLevis%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+        <img src="E:\website\shopping website\w1.jfif" style="width: 200px; height: 200px;">
+        
+        <p class="wtext"> Multi colour tops </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/mac">
+        <img src="E:\website\shopping website\w6.jfif" style="width: 200px; height: 200px;">
+        <p class="wtext"> wear black dresses </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+         
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3APuma%2Cone8%20x%20PUMA%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+        <img src="E:\website\shopping website\w3.jfif" style="width: 200px; height: 200px;">
+        
+        <p class="wtext"> best designer tops </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/h&m">
+        <img src="E:\website\shopping website\w2.jfif" style="width: 200px; height: 200px;">
+       
+        <p class="wtext"> classy white tops </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3AFOREVER%2021%3A%3AGender%3Amen%20women%2Cwomen">
+        <img src="E:\website\shopping website\w5.jfif" style="width: 200px; height: 200px;">
+        
+        <p class="wtext"> designer dresses for women </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    <div class=" brands1">
+        <a class="image" href="https://www.myntra.com/myntra-fashion-store?f=Brand%3ADenizen%20From%20Levis%2CLevis%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+        <img src="E:\website\shopping website\w11.jfif" style="width: 200px; height: 200px;">
+        
+        <p class="wtext"> mens t-shirts</p><br>
+        <p class="etext"> +explore </p>
+        </a>
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/mac">
+        <img src="E:\website\shopping website\w10.jfif" style="width: 200px; height: 200px;">
+        <p class="wtext"> T-shirts to wear </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+         
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3APuma%2Cone8%20x%20PUMA%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+        <img src="E:\website\shopping website\w9.jfif" style="width: 200px; height: 200px;">
+        
+        <p class="wtext"> trending jeans</p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/h&m">
+        <img src="E:\website\shopping website\w8.jfif" style="width: 200px; height: 200px;">
+       
+        <p class="wtext"> wears for men</p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3AFOREVER%2021%3A%3AGender%3Amen%20women%2Cwomen">
+        <img src="E:\website\shopping website\w7.jfif" style="width: 200px; height: 200px;">
+        
+        <p class="wtext"> long sleeves t-shirts </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    
+
+</div>
+
+
+<div style="font-family: 'Courier New', Courier, monospace; font-size: 30px; color:#282c3f; margin: 20px;"><b> TRENDING IN INDIAN WEAR</b> </div>
+<div class="brandslide3" >
+    <div class=" brands1">
+        <a class="image" href="https://www.myntra.com/myntra-fashion-store?f=Brand%3ADenizen%20From%20Levis%2CLevis%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+        <img src="E:\website\shopping website\i1.jfif" style="width: 200px; height: 250px;">
+        
+        <p class="wtext"> long anarkali suits </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/mac">
+        <img src="E:\website\shopping website\i2.jfif" style="width: 200px; height: 250px;">
+        <p class="wtext"> printed kurtis for women</p><br>
+        <p class="etext"> +explore </p>
+        </a>
+         
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3APuma%2Cone8%20x%20PUMA%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+        <img src="E:\website\shopping website\i3.jfif" style="width: 200px; height: 250px;">
+        
+        <p class="wtext"> Kurti with plazo </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/h&m">
+        <img src="E:\website\shopping website\i4.jfif" style="width: 200px; height: 250px;">
+       
+        <p class="wtext"> best kurta for mens </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3AFOREVER%2021%3A%3AGender%3Amen%20women%2Cwomen">
+        <img src="E:\website\shopping website\i5.jfif" style="width: 200px; height: 250px;">
+        
+        <p class="wtext"> festival kurta for mens</p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+</div>    
+
+
+<div style="font-family: 'Courier New', Courier, monospace; font-size: 30px; color:#282c3f; margin: 20px;"><b> TRENDING IN FOOTWEAR</b> </div>
+<div class="brandslide3" >
+    <div class=" brands1">
+        <a class="image" href="https://www.myntra.com/myntra-fashion-store?f=Brand%3ADenizen%20From%20Levis%2CLevis%3A%3AGender%3Amen%2Cmen%20women&rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0">
+        <img src="E:\website\shopping website\f1.jfif" style="width: 200px; height: 200px;">
+        
+        <p class="wtext"> Sneakers for women </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/mac">
+        <img src="E:\website\shopping website\f3.jfif" style="width: 200px; height: 200px;">
+        <p class="wtext"> Printed Sneakers </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+         
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3APuma%2Cone8%20x%20PUMA%3A%3AGender%3Amen%20women%2Cwomen&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0">
+        <img src="E:\website\shopping website\f5.jfif" style="width: 200px; height: 200px;">
+        
+        <p class="wtext"> Formal shoes for mens </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/h&m">
+        <img src="E:\website\shopping website\f2.jfif" style="width: 200px; height: 200px;">
+       
+        <p class="wtext"> classy high heels </p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+    <div class=" brands1">
+        <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3AFOREVER%2021%3A%3AGender%3Amen%20women%2Cwomen">
+        <img src="E:\website\shopping website\f4.jfif" style="width: 200px; height: 200px;">
+        
+        <p class="wtext"> outdoor shoes</p><br>
+        <p class="etext"> +explore </p>
+        </a>
+
+    </div>
+</div>    
+
+
+
+<div class="footer">
+    <div class="socialicon">
+        <a  href="#"> <i class="fa fa-facebook" style="font-style: 23px;  border-radius: 50px;"></i></a>
+        <a  href="#"> <i class="fa fa-instagram" ></i></a>
+        <a  href="#"> <i class="fa fa-snapchat" ></i></a>
+        <a  href="#"> <i class="fa fa-twitter" ></i></a>
+    </div>
+    <div class="info">
+        <a href="#"> About us </a>
+        <a href="#"> Need help?  </a>
+        <a href="#"> Term of use </a>
+        <a href="#"> Privacy policy </a>
+        <a href="#"> Return policy </a>       
+    </div>
+    <br><br>
+    <hr>
+    <br><br>
+    <div class=" info2" >
+        <i class="fas fa-truck" style="font-size: 25px;"> Get free Delivery </i>
+        <p style="margin-left: 40px;"> for every order above Rs 799</p>
+    </div>
+    <div class=" info3" >
+        <i class="fas fa-exchange-alt" style="font-size: 25px;">Return within 30days</i>
+        <p style="margin-left: 40px;"> of receiving your order</p>
+    </div>
+    <div class="line"></div>
+    <div class="signupbar">
+        <input type="text" placeholder="Enter your email " style="width: 300px; height: 30px;">
+        <button style=" padding: 8px;"> Sign up</button>
+    </div>
+   
+    <p  class="copyright"> Copyright <i class="far fa-copyright"></i> 2021 fashion classy .All right reserved  </p>
+</div>
+
+</body>
+</html>
